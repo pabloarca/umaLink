@@ -1,0 +1,200 @@
+body { margin:0; padding:0; }
+
+#mapid { position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    border-top:5px;
+    border-bottom:5px;
+    border-left:5px;
+    border-right:5px;
+    border-style:solid;
+    border-color:#FFC627;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .info {
+    max-width: 85%;
+    max-height:85%;
+    padding: 0px 0px;
+    font: 6px Arial, Helvetica, sans-serif;
+    background:white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border-style: solid;
+    border-color:#FFC627;
+    border-width: 3px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .info img {
+    max-width: 79px;
+    max-height:50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .astroweb {
+    display:none;
+  }
+}
+
+
+
+@media screen and (min-width: 760px) {
+  .info {
+    max-width: 100%;
+    padding: 0px 0px;
+    font: 12px/13px Arial, Helvetica, sans-serif;
+    background:white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border-style: solid;
+    border-color:#FFC627;
+    border-width: 5px;
+  }
+}
+
+
+
+
+
+
+h4{
+    color: rgba(107,101,101,0.8);
+}
+
+
+
+.hide{
+    visibility: hidden;
+}
+
+
+
+
+/*.leaflet-control-zoom.leaflet-bar.leaflet-control{*/
+    /*margin-bottom:90% ;*/
+/*}*/
+.leaflet-bar.leaflet-control.leaflet-control-custom.btncustom{
+    width: 194px;
+    height: 50px;
+    left: -9px;
+    top: -6px;
+    background: url("./dist/img/capture1.PNG");
+}
+
+
+.leaflet-bar.leaflet-control.leaflet-control-custom.btncustomstyle{
+    box-shadow: 2px 2px 2px #ffd152;
+}
+.geojson-list.leaflet-control{
+    height: 779px;
+    max-width: 795px;
+}
+
+
+@media only screen and (max-width: 500px)
+{
+    .leaflet-bar.leaflet-control.leaflet-control-custom.btncustom{
+        text-indent: -9999px;
+        background: url("./dist/img/capture2.PNG");
+        white-space: nowrap;
+        width: 35px;
+        height: 35px;
+        box-shadow: none;
+
+
+    }
+
+
+}
+
+.leaflet-container .geojson-list
+{
+    margin-left: 1% !important ;
+}
+
+
+
+/*LOGOSSSS CATEDRAS*/
+
+
+@media screen and (max-width: 500px) {
+  img.resp1 {
+    max-width: 20%;
+    z-index:1000;
+    position:absolute;
+
+    bottom:3%;
+    right:4%;
+
+  }
+}
+
+
+@media screen and (min-width: 760px) {
+  img.resp1 {
+    max-width: 100%;
+    z-index:1000;
+    position:absolute;
+    bottom:3%;
+    right:4%;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  img.resp2 {
+    max-width: 20%;
+    z-index:1000;
+    position:absolute;
+
+    bottom:10%;
+    right:4%;
+
+  }
+}
+
+
+@media screen and (min-width: 760px) {
+  img.resp2 {
+    max-width: 100%;
+    z-index:1000;
+    position:absolute;
+    bottom:14%;
+    right:4%;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  img.resp3 {
+    max-width: 20%;
+    z-index:1000;
+    position:absolute;
+
+    bottom:16%;
+    right:4%;
+
+  }
+}
+
+
+@media screen and (min-width: 760px) {
+  img.resp3 {
+    max-width: 100%;
+    z-index:1000;
+    position:absolute;
+    bottom:24%;
+    right:4%;
+  }
+}
