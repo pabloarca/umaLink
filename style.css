@@ -71,6 +71,12 @@ body { margin:0; padding:0; }
 }
 }
 
+@media screen and (max-width: 500px) {
+#features{
+  display:none;
+ }
+}
+
 @media screen and (min-width: 760px) {
 .map-overlay{
   z-index:1000;
