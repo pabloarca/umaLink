@@ -62,7 +62,28 @@ body { margin:0; padding:0; }
 }
 
 
+@media screen and (min-width: 760px) {
+#features{
+  height:50px;
+  margin-top:50px;
+  color:#FFC627;
 
+}
+}
+
+@media screen and (min-width: 760px) {
+.map-overlay{
+  z-index:1000;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background:rgba(255,255,255);
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow:auto;
+  border-radius: 5px;
+}
+}
 
 
 
